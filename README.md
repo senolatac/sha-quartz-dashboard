@@ -45,7 +45,7 @@ BlazingQuartz is created with [ASP.NET Core Blazor Server](https://blazor.net) a
     -v /<blazingquartz_path>/logs:/app/logs \
     -v /<blazingquartz_path>/certs:/app/certs \
     -p 9090:8080 \
-    wilchn/blazingquartzapp:latest
+    senolnar/arilquartzapp:latest
     ```
     Note: Replace the following:
     - `<blazingquartz_path>`
@@ -75,7 +75,7 @@ docker run -d \
 -p 9090:8080 \
 -p 9091:8081 \
 -e ASPNETCORE_HTTPS_PORTS=8081 \
-wilchn/blazingquartzapp:latest
+senolnar/arilquartzapp:latest
 ```
 ### Use other database
 Below steps shows you how to use PostgreSQL database to store execution logs. 
@@ -128,7 +128,7 @@ NOTE: Below steps assume that you already created the database and have imported
     -v /<blazingquartz_path>/logs:/app/logs \
     -v /<blazingquartz_path>/certs:/app/certs \
     -p 9090:80 \
-    wilchn/blazingquartzapp:latest
+    senolnar/arilquartzapp:latest
    ```
    NOTE: Replace <blazingquartz_path> and <your_timezone>
 
