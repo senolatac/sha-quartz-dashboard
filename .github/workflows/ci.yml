@@ -70,4 +70,4 @@ jobs:
         context: .
         push: true
         platforms: linux/amd64,linux/arm64
-        tags: wilchn/blazingquartzapp:latest, wilchn/blazingquartzapp:${{steps.tag.outputs.tag}}
+        tags: senolnar/arilquartzapp:latest, senolnar/arilquartzapp:${{steps.tag.outputs.tag}}
